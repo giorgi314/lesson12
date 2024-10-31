@@ -1,0 +1,84 @@
+header{
+    background-color: #191A19;
+}
+.hcontainer{
+    height: 158px;
+    max-width: 1503px;
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    max-width: 505px;
+    width: 100%;
+}
+.ul{
+    width: 100%;
+    display: flex;
+    column-gap: 44px;
+}
+.img.div{
+    width: 280px;
+    height: 44px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    max-width: 383px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.button{
+    max-width: 194px;
+    height: 66px;
+    border-radius: 15px;
+    background-color:  #FF7420;
+}
+.select{
+    max-width: 165px;
+    height:56px ;
+    background-color: #191A19;
+    color: #ffff;
+    border: none;
+    outline: none;
+    text-align:center;
+}
+.a-tag{
+    color: #FFFFFF;
+position: relative;
+}
+.a-tag:hover{
+    color: #FF7420;
+}
+.a-tag::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #ff7420;
+    transition: all 0.5s;
+}
+.a-tag:hover::after{
+    width: 100%;
+    
+}
+.a-tag, .select, .button{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+
+ /* main styles */
+.div-sec1{
+    background-image: url(../images/photo_construction-workers-surveying-site\ 1.png);
+    height: 936px;
+}
